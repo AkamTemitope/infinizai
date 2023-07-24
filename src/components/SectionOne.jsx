@@ -2,8 +2,8 @@ import Wrapper from "./Wrapper";
 
 const SectionOne = () => {
   return (
-    <section className="flex flex-col items-center justify-start w-full h-full xl:h-screen max-h-[1069px] p-2 xl:px-16 text-base text-white bg-black ">
-      <header className="flex items-center justify-between mt-1 gap-6 lg:gap-[182px]">
+    <section className="relative flex flex-col items-center justify-start w-full h-full xl:h-screen max-h-[1069px] p-2 xl:px-16 text-base text-white bg-black ">
+      <header className="flex z-10 items-center justify-between mt-1 gap-6 lg:gap-[182px]">
         <a href="/" className="no-underline cursor-pointer">
           <img className="w-[170px] h-12" alt="" src="/logo.svg" />
         </a>
@@ -53,7 +53,7 @@ const SectionOne = () => {
           </div>
         </nav>
       </header>
-      <div className="relative flex flex-1 items-center justify-start gap-[14px] text-[11px] text-lightslategray">
+      <div className="relative z-10 flex flex-1 items-center justify-start gap-[14px] text-[11px] text-lightslategray">
         <div className="absolute left-[-40px] top w-[25px] h-[370px] flex flex-col items-start justify-between">
           <div className="text-[11px] [transform:_rotate(-90deg)] [transform-origin:0_0]">
             TWITCH
@@ -110,6 +110,7 @@ const SectionOne = () => {
           />
         </div>
       </div>
+      <div className="bg-deepskyblue top-0 absolute w-[44%] z-0 right-0 h-full " />
     </section>
   );
 };
