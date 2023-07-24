@@ -46,31 +46,32 @@ const Timer = () => {
 
   return (
     <section className="grid items-center justify-center w-full h-screen bg-gray-900">
-      <div className="w-[50%] flex flex-col gap-4">
-        <div className="flex gap-2">
+      <div className="w-[90%] flex-col ">
+        <div className="flex flex-col gap-4 lg:flex-row">
           <input
             placeholder="Seconds"
             type="text"
             value={inputValue}
             onChange={(e) => setInputValue(e.target.value.replace(/\D/g, ""))}
-            className="p-2 text-lg rounded-md outline-none"
+            className="p-2 text-lg rounded-md outline-none w-[600px]"
           />
-
-          <button
-            onClick={startTimer}
-            className="p-2 text-lg text-white transition bg-blue-500 border-none rounded-md cursor-pointer hover:bg-blue-900"
-          >
-            Start
-          </button>
-          <button
-            onClick={stopTimer}
-            className="p-2 text-lg text-white transition bg-blue-500 border-none rounded-md cursor-pointer hover:bg-blue-900"
-          >
-            Stop
-          </button>
+          <div className="flex justify-end gap-4">
+            <button
+              onClick={startTimer}
+              className="p-2 text-lg text-white transition bg-blue-500 border-none rounded-md cursor-pointer hover:bg-blue-900"
+            >
+              Start
+            </button>
+            <button
+              onClick={stopTimer}
+              className="p-2 text-lg text-white transition bg-blue-500 border-none rounded-md cursor-pointer hover:bg-blue-900"
+            >
+              Stop
+            </button>
+          </div>
         </div>
 
-        <p className="text-lg text-white">{formattedTime}</p>
+        <p className="mt-6 text-lg text-white">{formattedTime}</p>
       </div>
     </section>
   );
