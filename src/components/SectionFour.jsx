@@ -2,7 +2,7 @@ import Wrapper from "./Wrapper";
 
 const SectionFour = () => {
   return (
-    <div className="bg-gray-100 w-full min-h-[500px] flex flex-col md:flex-row py-6 xl:py-0 items-start justify-start gap-10 md:gap-[150px] px-4 md:px-12 md:items-center ">
+    <footer className="bg-gray-100 w-full min-h-[500px] flex flex-col md:flex-row py-6 xl:py-0 items-start justify-start gap-10 md:gap-[150px] px-4 md:px-12 md:items-center ">
       <div className="md:w-[30%]  flex flex-col items-start gap-[35px]">
         <img className="w-[170px] h-12" alt="logo" src="/logo.svg" />
         <div className="leading-[25px] text-[15px]  text-darkgray">
@@ -32,7 +32,7 @@ const SectionFour = () => {
           </div>
         </div>
       </div>
-    </div>
+    </footer>
   );
 };
 
