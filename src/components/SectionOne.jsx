@@ -155,7 +155,7 @@ const SectionOne = () => {
                   of Gaming
                 </h1>
 
-                <p className="relative text-xs md:text-lg xl:leading-[28px] md:text-darkgray">
+                <p className="relative text-xs md:text-lg xl:leading-[28px] text-darkgray">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Felis, nec donec in morbi pulvinar. Enim non pulvinar neque.
                 </p>
