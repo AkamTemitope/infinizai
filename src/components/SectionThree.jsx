@@ -2,8 +2,8 @@ import Wrapper from "./Wrapper";
 
 const SectionThree = () => {
   return (
-    <div className="flex flex-col w-full h-full px-16 py-16 xl:max-h-[1069px] bg-black items-center justify-start gap-[64px]">
-      <div className="flex flex-col items-start justify-between w-full h-full text-base text-left xl:items-center xl:flex-row ">
+    <div className="flex flex-col w-full h-full px-4 md:px-12 py-16  bg-black items-center justify-start gap-[64px]">
+      <div className="flex flex-col items-start md:items-end justify-between w-full h-full text-base text-left xl:items-center md:flex-row ">
         <div className="flex flex-col items-start justify-start gap-[12px]">
           <div className="flex items-center justify-start gap-[8px]">
             <img className="w-8 h-8" alt="fire" src="/fire.svg" />
@@ -16,18 +16,18 @@ const SectionThree = () => {
             Articles
           </div>
         </div>
-        <button className="w-auto px-8 py-6 text-white capitalize transition border-none cursor-pointer whitespace-nowrap bg-deepskyblue text-[17px] ">
+        <button className="w-auto  px-6 py-4 md:px-8 md:py-6 text-white capitalize transition border-none cursor-pointer whitespace-nowrap bg-deepskyblue text-xs md:text-[17px] ">
           Read More
         </button>
       </div>
-      <div className="flex flex-col items-center justify-start gap-10 text-left xl:flex-row xl:gap-6 text-deepskyblue">
+      <div className="flex flex-col items-start justify-start gap-16 text-left xl:flex-row xl:gap-6 text-deepskyblue">
         <div className="flex flex-col items-center xl:items-start justify-start gap-[54px]">
           <img
-            className="w-[448px] md:w-[648px] h-[310px] md:h-[510px] object-cover"
+            className="w-[348px]  md:w-[648px]  object-cover"
             alt="joystick"
             src="s3left.png"
           />
-          <div className="flex flex-col items-start justify-start gap-[28px]">
+          <div className="flex flex-col items-center justify-center gap-[28px]">
             <div className="leading-[18px] text-lg">April 2, 2021</div>
             <h2 className="font-normal text-4xl leading-[46px] capitalize text-white">
               Esports Group teams up with the Indianapolis Colts
@@ -35,8 +35,8 @@ const SectionThree = () => {
           </div>
         </div>
         <div className="flex flex-col items-center justify-start gap-[40px] text-base">
-          <div className="flex flex-col items-center justify-start gap-6 md:flex-row">
-            <div className="flex flex-col items-start justify-start gap-[30px]">
+          <div className="flex items-center justify-center flex-wrap gap-4">
+            <div className="w-[320px] flex flex-col items-start justify-start gap-[30px]">
               <img
                 className="w-[312px] h-[189px] object-cover"
                 alt="s3img1"
@@ -49,7 +49,7 @@ const SectionThree = () => {
                 </h2>
               </div>
             </div>
-            <div className="flex flex-col items-start justify-start gap-[30px]">
+            <div className="w-[320px] flex flex-col items-start justify-start gap-[30px]">
               <img
                 className="w-[312px] h-[189px] object-cover"
                 alt="s3img2"
@@ -62,9 +62,7 @@ const SectionThree = () => {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="flex flex-col items-center justify-start gap-6 md:flex-row">
-            <div className="flex flex-col items-start justify-start gap-[30px]">
+            <div className="w-[320px] flex flex-col items-start justify-start gap-[30px]">
               <img
                 className="relative w-[312px] h-[189px] object-cover"
                 alt=""
@@ -77,7 +75,7 @@ const SectionThree = () => {
                 </div>
               </div>
             </div>
-            <div className="flex flex-col items-start justify-start gap-[30px]">
+            <div className="w-[320px] flex flex-col items-start justify-start gap-[30px]">
               <img
                 className="w-[312px] h-[189px] object-cover"
                 alt=""

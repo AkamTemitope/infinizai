@@ -2,7 +2,7 @@ import {
   SectionOne,
   SectionTwo,
   SectionThree,
-  SectionFour
+  SectionFour,
 } from "../components";
 
 const Infinizai = () => {
