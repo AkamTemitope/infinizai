@@ -119,7 +119,7 @@ const SectionOne = () => {
           </button>
         </nav>
       </header>
-      <div className="relative z-[1] flex flex-1 items-center justify-start gap-[14px] text-[11px] text-lightslategray">
+      <div className="relative z-[1] flex flex-1 items-center justify-start gap-[14px] mt-4 md:mt-0 text-[11px] text-lightslategray">
         <div className="absolute left-[-40px] top w-[25px] h-[370px] hidden md:flex flex-col items-start justify-between">
           <div className="text-[11px] [transform:_rotate(-90deg)] [transform-origin:0_0]">
             TWITCH
